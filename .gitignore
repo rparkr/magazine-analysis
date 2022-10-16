@@ -1,0 +1,36 @@
+# during development, I don't want to version control the data files
+data/
+
+# images used in test notebooks
+images/
+
+# older files, used in testing and development and not needed afterwards
+archive/
+
+# data (.csv files) resulting from experiments in notebooks
+experiments/
+
+# A very large text file (300MB); used in running notebook analyses
+# to create the final dataset (e.g., topic modeling using this file
+# with topics added as a column in the data/article_data.csv file)
+data/article_text.csv
+
+# Outdated version of my code; later split into 3 distinct notebooks, where
+# all subsequent updates have been made.
+40_yrs_of_Magazine_Issues.ipynb
+
+# Others, copied from the .gitignore template at:
+# https://github.com/github/gitignore/blob/main/Python.gitignore
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environments
+.env
+.venv
+env/
+venv/
